@@ -1,0 +1,4 @@
+interface:
+  display_name: "锆石靶点圈选"
+  short_description: "三图联合筛选30微米锆石靶点并输出CL可编辑PDF"
+  default_prompt: "Use $zircon-spot-selector to screen three registered modalities and export safe 30 µm targets as editable Circle annotations on the CL PDF."
