@@ -1,5 +1,25 @@
 # Zircon Spot Selector
 
+## Current manual-review workflow (V3)
+
+The original skill below remains available. The separately installable
+[`zircon-spot-selector-v3`](skills/zircon-spot-selector-v3/SKILL.md) adds original-image
+review, per-image calibration, explicit image versus positioning states, shared
+defect evidence, resumable checkpoints and synchronized editable-PDF exports.
+It has no universal beam size, dating objective or target count. Automatic image
+signals are review aids, not geological diagnoses. Install the entire
+`skills/zircon-spot-selector-v3/` folder in your Codex skills directory and install
+its `requirements.txt`. Run its engineering tests with:
+
+```text
+python -m unittest discover -s skills/zircon-spot-selector-v3/tests -v
+```
+
+V3 keeps real sample images and private case records local. Public fixtures are
+synthetic and do not establish geological accuracy or instrument acceptance.
+
+## Original skill
+
 A Codex skill for assisting zircon microanalysis target selection. It jointly analyzes reflected-light, transmitted-light, and cathodoluminescence (CL) images of the same field, registers the three modalities, detects defects, screens circular 30 µm target areas, and exports final targets as independently editable annotations on the original CL image in PDF format.
 
 > This is a conservative screening aid, not proof that a target is free of sub-resolution fractures or invisible inclusions. A qualified operator or petrographer must review the source images, masks, and recommended positions before instrument analysis.

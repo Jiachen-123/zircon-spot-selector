@@ -1,0 +1,6 @@
+interface:
+  display_name: "锆石圈点 v3"
+  short_description: "按原图逐点复核锆石候选，独立标定、可恢复修正并输出可编辑PDF和证据"
+  default_prompt: "请使用 $zircon-spot-selector-v3 处理本批锆石原图，核实参数、实际圈点及逐点纠错，分别交付可编辑PDF、复核图册和真实状态记录。"
+policy:
+  allow_implicit_invocation: true
