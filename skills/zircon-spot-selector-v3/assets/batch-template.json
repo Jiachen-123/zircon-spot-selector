@@ -1,0 +1,20 @@
+{
+  "sample_id": null,
+  "source_pdf": null,
+  "objective": null,
+  "objective_status": "pending",
+  "target_domain": null,
+  "sampling_strategy": null,
+  "beam_diameter_um": null,
+  "target_count": null,
+  "minimum_count": null,
+  "count_basis": "candidates",
+  "include_image_uncertain": false,
+  "numbering_start": 1,
+  "one_per_grain": true,
+  "required_modalities": [],
+  "defect_registry": {"path": null, "sha256": null},
+  "style": {"font_size_pt": 12, "line_width_pt": 1.2},
+  "fields": [],
+  "spots": []
+}
